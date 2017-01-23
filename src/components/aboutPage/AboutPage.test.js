@@ -13,7 +13,6 @@ function setup() {
 describe("AboutPage via react test utils", () => {
 	it("render page with h2 tag", () => {
 		const {output} = setup();
-		console.log(output);
-		expect(output.type).toBe("div")
+		expect(output.type).toBe("div");
 	});
 });

@@ -27,7 +27,7 @@ class NavBar extends React.Component {
 			<nav className="navbar navbar-default" role="navigation">
 				<div className="container-fluid">
 					<div className="navbar-header">
-						<a className="navbar-brand" href="#">
+						<a className="navbar-brand" href="/">
 							<img alt="Brand" src={BrandLogo}/>
 						</a>
 					</div>

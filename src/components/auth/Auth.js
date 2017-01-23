@@ -29,5 +29,5 @@ Auth.propTypes = {
 	onLoginClick: PropTypes.func.isRequired,
 	onLogoutClick: PropTypes.func.isRequired,
 	isAuthenticated: PropTypes.bool.isRequired,
-	profile: PropTypes.object.isRequired,
+	profile: PropTypes.object,
 };

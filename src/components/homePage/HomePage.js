@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router';
+import PublisherListPanel from "../publisherListPanel/PublisherListPanel";
 
 class HomePage extends React.Component {
 
@@ -17,6 +18,7 @@ class HomePage extends React.Component {
 					<li>Review the <Link to="fuel-savings">demo app</Link></li>
 					<li>Remove the demo and start coding: npm run remove-demo</li>
 				</ol>
+				<PublisherListPanel />
 			</div>
 		);
 	}
