@@ -10,14 +10,9 @@ class HomePage extends React.Component {
 
 	render(){
 		return(
-			<div>
-				<h1>React Slingshot</h1>
+			<div >
+				<h1>Welcome to Data Package Registry</h1>
 
-				<h2>Get Started</h2>
-				<ol>
-					<li>Review the <Link to="fuel-savings">demo app</Link></li>
-					<li>Remove the demo and start coding: npm run remove-demo</li>
-				</ol>
 				<PublisherListPanel />
 			</div>
 		);
